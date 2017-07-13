@@ -1,5 +1,3 @@
-$( () => {
-  console.log('jquery set');
 
   var guesses = 0;
 
@@ -75,4 +73,4 @@ $( () => {
   // begins the game
   askDifficulty();
 
-});
+// note: I first had this in JQuery because I thought I would be using actual HTML, but prompts are just fine. That's why everything is indented over
